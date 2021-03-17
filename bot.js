@@ -517,7 +517,7 @@ var spaceDroneOperator = setInterval(function() {
     }
     if (battleFlag == 1) {
         while (probeCombat < mode.combat && usedTrust < probeTrust) {
-            raiseprobeCombat();
+            raiseProbeCombat();
             ++usedTrust;
         }
     }
